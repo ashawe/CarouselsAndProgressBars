@@ -1,0 +1,58 @@
+.progress {
+  height: 3px;
+  border-radius: 4px;
+}
+
+.progress-bar {
+  background-color: #141414;
+}
+.owl-dots
+{
+	text-align: center;	
+
+	zoom: 1
+}
+.owl-dot 
+{
+	text-align: center;
+	display: inline-block;
+	zoom: 1
+}
+.owl-dots span {
+	text-align: center;
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	background: #D6D6D6;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity .2s ease;
+	border-radius: 30px
+}
+.owl-dot span {
+	text-align: center;
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	background: #D6D6D6;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity .2s ease;
+	border-radius: 30px
+}
+.owl-dot.active span{
+	background: #869791
+}
+.owl-dot:hover span {
+	background: #869791
+}
+.progress-bar{
+	-webkit-transition: width 1.5s ease;
+	-o-transition: width 1.5s ease;
+	transition: width 1.5s ease;
+}
+.owl-carousel{
+	-webkit-transition: width 1.5s ease;
+	-o-transition: width 1.5s ease;
+	transition: width 1.5s ease;
+}
