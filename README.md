@@ -31,7 +31,7 @@ You can then add a (or as many as you want) progress bar(s) in the slide as:
 The data-transition goal helps you to set the progress of your progress bar. In this case the progress bar will be 92% and 87% filled.
 
 
-# Understandin main.js
+# Understanding main.js
 
 The following code starts the animation when the user scrolls to the skills section by using the function start_counter.
 ``````
