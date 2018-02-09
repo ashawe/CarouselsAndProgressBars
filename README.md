@@ -21,6 +21,9 @@ You can then add a (or as many as you want) progress bar(s) in the slide as:
 <div class="progress">
   <div class="progress-bar html" role="progressbar" data-transitiongoal="92"></div>
 </div>
+<div class="progress">
+  <div class="progress-bar c" role="progressbar" data-transitiongoal="87"></div>
+</div>
 ``````
 The data-transition goal helps you to set the progress of your progress bar. In this case the progress bar will be 92% filled.
 
