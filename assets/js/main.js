@@ -1,40 +1,16 @@
-/* $(function() {
-    var oTop = $('#countIt').offset().top - window.innerHeight;
-    $(window).scroll(function(){
-
-        var pTop = $('body').scrollTop();
-        if( pTop >= oTop ){
-            start_count();
-        }
-    });
-});
- */
-function start_count(){
-	 $('.count').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 4000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
-    $('.count').removeClass('count');
-}
-
+//This function basically starts the animation when the user scrolls to the skills section
 $(function() {
     var oTop = $('#skills').offset().top - window.innerHeight;
     $(window).scroll(function(){
 
         var pTop = $('body').scrollTop();
         if( pTop >= oTop ){
-            start_counter ();
+            start_counter ();   //call to another function. Oh wait its defined below
         }
     });
 });
 
+//set the values of your progress bars here!!
 function start_counter(){
     var $progressBar = $('.html').css('width','92%');
     var $progressBar1 = $('.c').css('width','87%');

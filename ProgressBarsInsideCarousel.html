@@ -13,12 +13,14 @@
     <script src="assets/js/main.js"></script>
 </head>
 <body>
+    <!-- The part from here -->
     <div class="container" style="padding-bottom: 520px;">
         <h1>Scroll Down to View the Animation</h1>
     </div>
-    <!-- Skills -->
-
     <p class="container">Carousel animates ... Wait few secs</p>
+    <!-- Upto here is only used to showcase the animation as it is scroll based -->
+
+    <!-- Skills -->
     <section id="skills" style="border-bottom: 1px solid #F1EBEB;">
         <div class="container">
             <div class="row">
@@ -109,25 +111,30 @@
             </div>
     </section>
     <!--End Skills-->
+
+
+    <!-- This part has basically no use from here -->
     <div class="container" style="padding-top: 100px;">
         <h1>Lorium Ipsum .. i don't know whats ahead.</h1>
     </div>
+    <!-- Upto here -->
 
     <script type="text/javascript" src='assets/js/bootstrap.min.js'></script>
     <script type="text/javascript" src="assets/js/bootstrap-progressbar.min.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                var owl = $('.owl-carousel');
-                owl.owlCarousel({
-                    items: 1,
-                    loop: true,
-                    margin: 10,
-                    autoplay: true,
-                    autoplayTimeout: 4000,
-                });
-                //start_counter();
+    
+    <!-- The below Script initialises the carousel -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 4000,
             });
-        </script>
+        });
+    </script>
 </body>
 </html>
