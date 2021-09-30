@@ -3,7 +3,7 @@ So, there might be a case when you need to display a skill set, but you have so 
 
 # Demo
 
-![Gif Demo](https://github.com/vdElyn/CarouselsAndProgressBars/blob/main/CarouselDemo.gif?raw=true)
+![Gif Demo](https://github.com/vdElyn/CarouselsAndProgressBars/blob/master/CarouselDemo.gif?raw=true)
 
 <a href="http://harshsaglani.byethost13.com/Demos/ProgressBarsInsideCarousel/" target="_blank">Click here to see the DEMO on My Website.</a> [Dead link to replace]
 
